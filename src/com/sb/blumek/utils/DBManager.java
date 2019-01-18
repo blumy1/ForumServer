@@ -142,9 +142,9 @@ public class DBManager {
             preparedStatement.setString(1, user.getUsername());
             preparedStatement.setString(2, user.getPassword());
             preparedStatement.setString(3, user.getEmail());
-            preparedStatement.setInt 	(4, user.getRank().getId());
-            preparedStatement.setString	(5, user.getCreatedAt());
-            preparedStatement.setString (6, user.getImageUrl());
+            preparedStatement.setInt 	(4, 3);
+            preparedStatement.setString	(5, new SimpleDateFormat("dd.MM.yyyy HH:mm").format(new Date()));
+            preparedStatement.setString (6, null);
 
             preparedStatement.execute();
 

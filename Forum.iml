@@ -23,5 +23,7 @@
     <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0" level="application_server_libraries" />
     <orderEntry type="library" name="javax.enterprise:cdi-api:2.0-PFD2" level="project" />
     <orderEntry type="library" name="javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="javax.ws.rs:javax.ws.rs-api:2.1.1" level="project" />
+    <orderEntry type="library" name="javax.servlet:javax.servlet-api:4.0.1" level="project" />
   </component>
 </module>
